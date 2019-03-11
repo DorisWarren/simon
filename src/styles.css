@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  transition: .2s;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+.grow {
+  transform: scale(1.3);
+  transform-origin: center;
+}
+
+button {
+  padding: 20px;
+}
